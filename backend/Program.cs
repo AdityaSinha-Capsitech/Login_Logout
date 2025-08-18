@@ -7,7 +7,7 @@ using todoApp1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//builder.Services.AddEndpointsApiExplorer(); //?
+builder.Services.AddEndpointsApiExplorer(); //?
 //This method registers services that expose metadata about your application's endpoints, such as their HTTP methods, routes, and parameters. Swagger relies on this metadata to generate accurate API documentation. Without it, Swagger won't be able to discover and document your Minimal API endpoints. 
 
 
